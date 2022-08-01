@@ -1,0 +1,183 @@
+*{
+box-sizing: border-box;
+
+}
+
+body{
+margin : 0;
+background:#ffff;
+font-family: sans-serif;
+}
+
+img{
+width:100%;
+}
+
+/*pour le menu toggle*/
+#mainbox{
+ font-size: 64px;
+ margin-left:17px;
+ cursor: pointer;
+ transition: all .6s;
+}
+.sidemenu{
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ height: 100%;
+ width: 0px;
+ background-color: #000000;
+ z-index: 1;
+ padding-top: 100px;
+ overflow-x: hidden;
+ transition: all .5s;
+}
+.sidemenu a{
+ padding: 8px 8px 8px 64px;
+ text-decoration: none;
+ font-size: 30px;
+ color: #999;
+ display: block;
+}
+.sidemenu a:hover{
+  color: white;
+}
+.sidemenu .closebtn{
+ position: absolute;
+ top: 0px;
+ right: 25px;
+ font-size: 56px;
+ margin-left: 32px;
+}
+
+/*
+-----------------------------------------------
+*/
+header{
+background:#ff7900;
+height:95px;
+}
+
+/*
+.burger{
+color: grey;
+margin:17px;
+margin-top:17px;
+}
+
+.logo{
+width:90px;
+height:40px;
+margin-top:0;
+padding:0;
+}
+*/
+
+.search{
+position:relative;
+right:17px;
+font-size:37px;
+}
+.bloc-gauche{
+float:right;
+color:#ffff;
+font-size:27px;
+position:relative;
+bottom:47px;
+right:23px;
+font-size:37px;
+}
+
+.connex{
+border:2px solid #000000;
+padding:3px;
+margin:3px;
+background:#000000;
+}
+
+.creer{
+border:2px solid #000000;
+padding:3px;
+margin:3px;
+background:#000000;
+border-color:#000000;
+color:#ffff;
+
+}
+
+
+
+.pquestion{
+text-align:center;
+border:3px solid silver;
+padding:147px;
+margin:117px;
+box-shadow:10px 25px 5px gray;
+background:#ffff;
+}
+
+.pquestion a{
+text-decoration:none;
+border:3px solid silver;
+padding:14px;
+margin:11px;
+box-shadow:10px 5px 5px gray;
+color:#ffff;
+background:#ff7900;
+}
+
+
+.poserquestion{
+text-align:center;
+border:3px solid silver;
+padding:147px;
+margin:117px;
+box-shadow:10px 25px 5px gray;
+background:#ffff;
+}
+
+.poserquestion a{
+text-decoration:none;
+border:3px solid silver;
+padding:14px;
+margin:11px;
+box-shadow:10px 5px 5px gray;
+color:#ffff;
+background:#ff7900;
+}
+
+
+.adresse{
+font-size:23px;
+}
+.apropo{
+float:right;
+position:relative;
+bottom:85px;
+font-size:23px;
+}
+
+
+.contact{
+font-size:33px;
+}
+
+.social{
+position:relative;
+left:70px;
+color:#ffff;
+}
+
+footer{
+background:#ffff;
+}
+
+.blocf{
+/*
+margin:43px;
+*/
+padding:23px;
+background:#000000;
+color:#ffff;
+}
+

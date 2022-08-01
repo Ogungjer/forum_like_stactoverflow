@@ -1,0 +1,41 @@
+.question1, p{
+text-overflow:clip;
+width:300px;
+color:green;
+}
+
+.container{
+margin:auto;
+text-align:center;
+padding:0px;
+
+}
+ table{
+ margin:auto;
+ padding:30px;
+ width:70%;
+ 
+ }
+
+table tr th{
+padding:27px;
+background:#ff7900;
+color:#ffff;
+font-size:27px;
+}
+
+table tr td{
+padding:27px;
+background:#00b287;
+color:#ffff;
+font-size:27px;
+}
+
+table tr td a{
+text-decoration:none;
+color:#ffff;
+}
+
+table tr td a{
+
+}
